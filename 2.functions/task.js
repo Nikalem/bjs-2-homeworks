@@ -29,6 +29,7 @@ function getArrayParams(...arr) {
   
 
 function summElementsWorker(...arr) {
+  if(arr.length == 0) return 0;
   let sum = arr.reduce((total, currentItem) => {
     total += currentItem;
     return total;
