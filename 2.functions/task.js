@@ -34,9 +34,8 @@ function summElementsWorker(...arr) {
     total += currentItem;
     return total;
   },0) 
-
-  let x =sum;
-  return x;
+  
+  return sum;
 }
 
 function differenceMaxMinWorker(...arr) {
