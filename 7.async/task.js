@@ -20,8 +20,8 @@ class AlarmClock {
         return true;
     }
 
-    checkTimeZero(i){
-        return (i < 10) ?  "0" + i : i;
+    checkTimeZero(x){
+        return (x < 10) ?  "0" + x : x;
     }
 
     getCurrentFormattedTime(){
