@@ -1,6 +1,6 @@
 describe('Домашнее задание к лекции 7 «Асинхронность»', () => {
   let clock;
-
+ // testCase();
   beforeEach(function(){
     clock = new AlarmClock();
     jasmine.DEFAULT_TIMEOUT_INTERVAL = 2000;
